@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('../fonts/icon.eot?3bu214');
+  src:  url('../fonts/icon.eot?3bu214#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?3bu214') format('truetype'),
+    url('../fonts/icon.woff?3bu214') format('woff'),
+    url('../fonts/icon.svg?3bu214#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-education:before {
+  content: "\e900";
+}
+.icon-email:before {
+  content: "\e901";
+}
+.icon-exp:before {
+  content: "\e902";
+}
+.icon-github:before {
+  content: "\e903";
+}
+.icon-home:before {
+  content: "\e904";
+}
+.icon-infomation:before {
+  content: "\e905";
+}
+.icon-language:before {
+  content: "\e906";
+}
+.icon-location:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-project:before {
+  content: "\e909";
+}
+.icon-self-evaluation:before {
+  content: "\e90a";
+}
+.icon-skill:before {
+  content: "\e90b";
+}
+
